@@ -40,6 +40,18 @@
   .hire-text h2 {
     position: relative;
   }
+
+  .highlighted-project {
+    /* Add distinctive styling to make the projects stand out */
+    border: 2px solid #007bff; /* Example border color (Bootstrap primary color) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .highlighted-project:hover {
+    border-color: #0056b3; /* Change border color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+  }
   
   /* Timeline background line */
   #about .img::before {
